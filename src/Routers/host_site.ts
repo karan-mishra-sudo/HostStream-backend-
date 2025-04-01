@@ -9,7 +9,7 @@ import Database from "../Database/index.js";
 
 
 
-export default host_site.post('/',  upload.array('files', 50), (req, res) => {
+export default host_site.post('/',  upload.array('files', 10), (req, res) => {
     const route = Services.generate_name(10);
     const new_site = {
         id: Services.generate_name(20),
