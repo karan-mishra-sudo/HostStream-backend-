@@ -17,7 +17,7 @@ export default host_site.post('/', upload.array('files', 20), (req, res) => {
         website_name: req.body.websiteName,
         site_folder: `/uploads/${locations.user_folder_loactions}/${locations.user_site_loactions}`,
         route: `/${route}`,
-        URL: `http://localhost:88/${route}`,
+        URL: `https://hs-qsij.onrender.com/${route}`,
         Date: new Date().toLocaleDateString()
     }
     Database.add_sites(new_site, req.body.id).then(() => {
