@@ -27,7 +27,7 @@ export default host_site.post('/', upload.array('files', 20), async (req, res, n
             domain_name: req.body.domainName,
             site_folder: `/uploads/${locations.user_folder_loactions}/${locations.user_site_loactions}`,
             route: `/uploads/${locations.user_folder_loactions}/${locations.user_site_loactions}`,
-            URL: `http://localhost:88/uploads/${locations.user_folder_loactions}/${locations.user_site_loactions}/`,
+            URL: `https://hoststream.onrender.com/uploads/${locations.user_folder_loactions}/${locations.user_site_loactions}/`,
             Date: new Date().toLocaleDateString()
         };
 
