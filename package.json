@@ -27,7 +27,8 @@
     "nodemon": "^3.1.9",
     "redis": "^4.7.0",
     "swagger-ui-express": "^5.0.1",
-    "util": "^0.12.5"
+    "util": "^0.12.5",
+    "@vercel/node": "^2.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
